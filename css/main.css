@@ -913,9 +913,10 @@ header.fixed .nav-list a.active {
   position: absolute;
   top: 0;
   inset-inline-start: 0;
-  width: 100%;
+  width: 411px;
+  max-width: 25%;
   height: 100%;
-  background: url(../images/hero/pattern.png) 100% 100%/contain repeat-y;
+  background: url(../images/testimonials/pattern.png) 100% 100%/cover repeat-y;
   z-index: 2;
   animation: wave 100s linear infinite;
 }
@@ -1618,7 +1619,7 @@ header.fixed .nav-list a.active {
   width: 411px;
   max-width: 25%;
   height: 100%;
-  background: url(../images/testimonials/pattern.png) 100% 100%/contain repeat-y;
+  background: url(../images/testimonials/pattern.png) 100% 100%/cover repeat-y;
   z-index: 3;
   animation: wave 100s linear infinite;
 }
@@ -2142,11 +2143,11 @@ header.fixed .nav-list a.active {
   position: absolute;
   top: 0;
   inset-inline-start: 0;
-  width: 100%;
-  max-width: 528px;
+  width: 411px;
+  max-width: 25%;
   height: 100%;
-  background: url(../images/features/pattern.png) 100% 100%/cover repeat-y;
-  z-index: 1;
+  background: url(../images/testimonials/pattern.png) 100% 100%/cover repeat-y;
+  z-index: 3;
   animation: wave 100s linear infinite;
 }
 @media (max-width: 991px) {
