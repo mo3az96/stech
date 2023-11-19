@@ -8,6 +8,14 @@ $(document).ready(function () {
     $(".header-nav,.overlay").fadeToggle(300);
     $("body").toggleClass("overflow");
   });
+  if ($(window).width() <= 991) {
+    $(".nav-list a").on("click", function (e) {
+      $(".menu-btn").removeClass("active");
+      $(".nav-list").removeClass("active");
+      $(".header-nav,.overlay").fadeOut(300);
+      $("body").removeClass("overflow");
+    });
+  }
   /************************************ Fixed Header ************************************/
   $(window).scroll(function () {
     $(this).scrollTop() >= 50
