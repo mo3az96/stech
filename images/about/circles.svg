@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 268.1 268.1" style="enable-background:new 0 0 268.1 268.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#601519;stroke-width:0.3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#601519;stroke-width:3;stroke-miterlimit:10;}
+	@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } } @keyframes spin2 { 0% { transform: rotate(0deg); } 100% { transform: rotate(-360deg); } }
+</style>
+<g style="transform-origin: center; transform-box: fill-box; animation: spin 6s linear infinite;">
+	<path class="st0" d="M134.7,3c72.6,0,131.4,58.8,131.4,131.4"/>
+	<path class="st1" d="M3.3,134.4C3.3,61.8,62.1,3,134.7,3"/>
+	<path class="st0" d="M134.7,265.8C62.1,265.8,3.3,207,3.3,134.4"/>
+	<path class="st1" d="M266.1,134.4c0,72.6-58.8,131.4-131.4,131.4"/>
+</g>
+<g style="transform-origin: center; transform-box: fill-box; animation: spin2 4s linear infinite;">
+	<path class="st0" d="M212.4,51.9c45.6,42.9,47.7,114.7,4.7,160.3"/>
+	<path class="st1" d="M52.2,56.6C95.1,11.1,166.9,9,212.4,51.9"/>
+	<path class="st0" d="M56.9,216.9C11.3,174,9.2,102.2,52.2,56.6"/>
+	<path class="st1" d="M217.2,212.2c-42.9,45.6-114.7,47.7-160.3,4.7"/>
+</g>
+</svg>
