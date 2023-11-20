@@ -1458,7 +1458,7 @@ header.fixed .nav-list a.active {
 }
 .partner-item .partner-img {
   width: 100%;
-  max-width: 155px;
+  max-width: 120px;
   height: 100%;
   max-height: 80px;
   display: flex;
@@ -2161,7 +2161,7 @@ header.fixed .nav-list a.active {
   max-width: 25%;
   height: 100%;
   background: url(../images/testimonials/pattern.png) 100% 100%/cover repeat-y;
-  z-index: 3;
+  z-index: 1;
   animation: wave 100s linear infinite;
 }
 @media (max-width: 991px) {
@@ -2258,15 +2258,15 @@ header.fixed .nav-list a.active {
   position: absolute;
   top: 10px;
   inset-inline-end: 10px;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e6e6e6;
-  color: #808080;
-  font-size: 22px;
+  background-color: #f4f4f4;
+  color: #b6b6b6;
+  font-size: 16px;
   transition: all 0.3s ease-in-out;
 }
 .modal-details .close-modal:hover {
