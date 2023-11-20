@@ -548,13 +548,13 @@ $(document).ready(function () {
   $(".more-information-btn").click(function (e) {
     var text = $(this)
       .parents(".information-section")
-      .find(".information-paragraph");
+      .find(".information-paragraph p");
     var height = text.prop("scrollHeight");
     $(this).toggleClass("active");
     if ($(this).hasClass("active")) {
-      text.height(height).css("display", "block");
+      text.css("display", "block").height(height);
     } else {
-      text.height(96);
+      text.height(148);
     }
   });
 });
